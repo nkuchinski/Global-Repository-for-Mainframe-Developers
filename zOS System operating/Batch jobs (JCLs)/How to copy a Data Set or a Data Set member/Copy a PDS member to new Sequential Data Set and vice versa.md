@@ -4,7 +4,7 @@
 
 Note: It is good practice to use Referback (Backward Reference) in DCB parameter. You will ensure data set compatibility this way.
 
-```
+```TEST
 //JCLLIB06 JOB NOTIFY=&SYSUID,MSGLEVEL=(1,1)         
 //COPYMEM  EXEC PGM=IEBGENER                         
 //SYSPRINT DD SYSOUT=*                               
